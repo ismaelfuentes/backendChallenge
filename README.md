@@ -65,7 +65,8 @@ The project has defined eslint and prettier as formatters, make sure you have yo
 
 Build the image with `docker-compose build` and both images for the API and Mongo will be created
 
-## 🚀 Run the api
+##  Run the api
+🚀
 
 **🌿 Local environment**:
 
@@ -73,9 +74,9 @@ Once mongo is running in the right port and the setup ready, you can run the app
 
 **🧊 Docker**:
 
-If you built the images previously, just running 'docker-compose up' should launch a container for mongodb and another one for the API itself, listening for request in the same port as the local environment.
+If you built the images previously, just running `docker-compose up` should launch a container for mongodb and another one for the API itself, listening for request in the same port as the local environment.
 
-## Tests
+## Test
 
 some unit and e2e tests where added just to show how to create them.
 
